@@ -1,0 +1,11 @@
+# you need to escape % as %%
+
+[GitHub]
+path = gh/%%(publicprivate)s/%%(slug)s/
+username = your_username
+password = your_password
+
+[Bitbucket]
+path = bb/%%(publicprivate)s/%%(slug)s/
+username = your_username
+password = your_password
