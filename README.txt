@@ -1,4 +1,3 @@
-
 This is a tool to automatically fetch/clone all repositories on github and
 bitbucket into a local folder using the service APIs.
 
@@ -21,7 +20,22 @@ Then just run the program:
 
   python repomess.py
 
+And it will clone or update into
 
+ gh/public/myrepo1/
+ bb/private/myrepo2/
+
+Etc...
 
 Enjoy!
 
+PS. many things can be improved, help is welcome
+
+SOME THINGS I'D LIKE TO ADD:
+ 
+ - Specify manual repository urls
+ - Parallel cloning/fetching
+ - Daemon mode with notifications of incoming changesets
+ - Improved security (no plaintext pass)
+ - At least only run in conf file has 600 permission
+ - etc...
